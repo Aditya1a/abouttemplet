@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 198, 255);
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 14%;
+}
+
+.logo{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.logo img {
+    width: 150px;
+    border-radius: 70px;
+    margin: 30px 0px;
+}
+
+.list li{
+    list-style: none;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.list a{
+    text-decoration: none;
+    color: #000;
+}
+.set a{
+    font-size: 1.1rem;
+    color: #000;
+    text-decoration: none;
+    
+}
+.set{
+    padding: 20px;
+}
+
+.home {
+    margin-left: 210px;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.home h1 {
+    font-size: 90px;
+    /* margin-top: 200px; */
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.btn {
+    margin: 29px auto;
+    background: #8cff8c;
+    padding: 9px 25px;
+    border-radius: 30px;
+    border: 1px solid #3eb13e;
+    cursor: pointer;
+}
+.about{
+    margin-left: 215px;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    background-color: beige;
+}
+
+.resume{
+    margin-left: 215px;
+    height: 130vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 222, 238);
+}
+.RE h1{
+    color: coral;
+    font-size: 45px;
+
+}
+.box{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 15px 258px;
+}
+.edu{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    
+}
+.exp{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+}
+.heading{
+    color: chartreuse;
+}
+.contect{
+    display: flex;
+    margin: auto;
+    width:100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #b3e1b3;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    font-size: 25px;
+   
+}
+.c{
+    /* margin-top: 90px; */
+    color: #000;
+    font-size: 40px;
+    /* margin-left: 315px; */
+    text-align: center;
+    background-color: #b3e1b3;
+    height: 10vh;
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    font-size: 28px;
+    margin-right: -177px;
+      
+}
